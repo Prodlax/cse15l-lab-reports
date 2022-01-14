@@ -4,7 +4,7 @@ Hello! This is my lab report with the topic on remote access.
 
 ## Installing VSCode
 
-To install VSCode, or Visual Studio Code, we need to go to the VSCode website, which you can access at https://code.visualstudio.com/. 
+To install VSCode, or Visual Studio Code, we need to go to the VSCode website, which you can access at [https://code.visualstudio.com/](https://code.visualstudio.com/). 
 
 The website should look something like this:
 
