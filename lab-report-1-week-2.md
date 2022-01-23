@@ -4,7 +4,7 @@ Hello! This is my lab report with the topic on remote access.
 
 ## Installing VSCode
 
-To install VSCode, or Visual Studio Code, we need to go to the VSCode website, which we can access at [https://code.visualstudio.com/](https://code.visualstudio.com/). 
+To install VSCode, or Visual Studio Code, we need to go to the VSCode website, which we can access [here](https://code.visualstudio.com/). 
 
 The website should look something like this:
 
@@ -20,7 +20,7 @@ Once OpenSSH is installed, find our course-specific account for CSE15L, which ca
 
 Once we find our login information, open up the terminal and type in this command:
 
-"ssh cs15lwi22aug@ieng6.ucsd.edu"
+`ssh cs15lwi22aug@ieng6.ucsd.edu`
 
 Of course, the address itself will be slightly different for each user, but it should look very similar. Press enter, and if we are connecting for the first time, we will likely get a message that asks is if we are sure we want to connect to this server. Enter "yes" to continue the connection process. Then type in the password, and we should be logged in. Our screen should look something similar to this:
 
@@ -64,9 +64,9 @@ As we can see, after running the command, it prompted me for the password to log
 
 If we are using windows, follow the directions [here.](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
-I created a pair of public and private keys using the command "ssh-keygen -t ed25519". Following the document instructions, this created a pair of keys in a .ssh folder located on my machine. Now, I need to copy the public key from my local machine onto the server.
+I created a pair of public and private keys using the command `ssh-keygen -t ed25519`. Following the document instructions, this created a pair of keys in a .ssh folder located on my machine. Now, I need to copy the public key from my local machine onto the server.
 
-Login to the server using ssh, and create a new directory called .ssh by typing the command "mkdir .ssh". Then, log out of the server.
+Login to the server using ssh, and create a new directory called .ssh by typing the command `mkdir .ssh`. Then, log out of the server.
 
 Locate the directory of the public key that we created, and copy it into the .ssh/authorized_keys directory on the server using the "scp" command. Here is a screenshot of the scp part.
 
