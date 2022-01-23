@@ -78,7 +78,7 @@ As we can see from this screenshot, I no longer need a password to log in to the
 
 For java files, we have to execute multiple commands in order to run the file. First we need to compile the file using the "javac" command, and then we would run the file itself by using the "java" command. If we are making constant changes to a java file, this may be tedious. However, since we can run multiple commands on the same line, and we have to run these 2 same commands every time in order to run the file, why not combine them both into one line?
 
-For "WhereAmI", we could simply combine both commands into "javac WhereAmI.java; java WhereAmI". This will make running slightly easier. Of course, we would first make changes to the file on the local machine and then secure copy it to the server, but once we do that, we can log in using ssh, and then just type "javac WhereAmI.java; java WhereAmI", and run both commands at the same time. We can also use this command on our local machine to run the files on our local machine faster, too.
+For "WhereAmI", we could simply combine both commands into `javac WhereAmI.java; java WhereAmI`. This will make running slightly easier. Of course, we would first make changes to the file on the local machine and then secure copy it to the server, but once we do that, we can log in using ssh, and then just type `javac WhereAmI.java; java WhereAmI`, and run both commands at the same time. We can also use this command on our local machine to run the files on our local machine faster, too.
 
 ![orr](ss6.png)
 
