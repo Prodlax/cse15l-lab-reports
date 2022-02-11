@@ -12,7 +12,9 @@ Link to test file for this failure-inducing input:
 
 [test2.md](https://raw.githubusercontent.com/Prodlax/markdown-parse/ccc40cabe3dcb0edf868570196ae4491a0388432/test2.md)
 
-Symptom of failure inducing output:
+Command + Symptom of failure inducing output:
+
+`java MarkdownParse test2.md`
 
 `[, hello.html]`
 
@@ -30,7 +32,9 @@ Link to test file for this failure-inducing input:
 
 [test.md](https://raw.githubusercontent.com/Prodlax/markdown-parse/main/test.md)
 
-Symptom of failure inducing output:
+Command + Symptom of failure inducing output:
+
+`java MarkdownParse test.md`
 
 ![ssfailure2.png](ssfailure2.png)
 
@@ -50,7 +54,9 @@ Link to test file for this failure inducing input:
 
 (same file, but different bug this time!)
 
-Symptom of failure inducing output:
+Command + Symptom of failure inducing output:
+
+`java MarkdownParse test.md`
 
 ![ssfailure3](ssfailure3.png)
 
