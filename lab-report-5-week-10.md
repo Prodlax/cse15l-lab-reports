@@ -8,11 +8,11 @@ To find these different results, I looked at the 2 results.txt files manually an
 
 The first test file is 32.md. This test file should output a list with the one link "/f%C3%B6%C3%B6" (according to the html file that corresponds with this markdown file).
 
-## My implementation
+## My implementation output
 
 ![my32](mymdparse32.png)
 
-## Given implementation
+## Given implementation output
 
 ![their32](theirmdparse32.png)
 
@@ -27,11 +27,11 @@ I'm going to choose my implementation to describe the bug. For my implementation
 
 The second file is 41.md. This test file should output no links, as it should just display "``[a](url "tit")``" as text. 
 
-## My implmentation
+## My implmentation output
 
 ![my41](mymdparse41.png)
 
-## Given implmentation
+## Given implmentation output
 
 ![their41](theirmdparse41.png)
 
